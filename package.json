@@ -1,0 +1,11 @@
+{
+  "name": "nodejs-xstack",
+  "version": "1.0.0",
+  "description": "xstack js/cloud nodejs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "onlyal33",
+  "license": "MIT"
+}
