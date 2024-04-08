@@ -7,11 +7,17 @@
   "scripts": {
     "start": "nodemon --exec \"node --version\" src/index.js",
     "monitor": "node src/activityMonitor.js",
+    "testTask3_1": "nodemon __tests__/task3/part1.test.js",
+    "testTask3_2": "nodemon __tests__/task3/part2.test.js",
+    "testTask3_3": "nodemon __tests__/task3/part3.test.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "onlyal33",
   "license": "MIT",
   "devDependencies": {
     "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
   }
 }
