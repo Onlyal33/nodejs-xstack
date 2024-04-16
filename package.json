@@ -10,14 +10,21 @@
     "testTask3_1": "nodemon __tests__/task3/part1.test.js",
     "testTask3_2": "nodemon __tests__/task3/part2.test.js",
     "testTask3_3": "nodemon __tests__/task3/part3.test.js",
+    "startTask5": "rm -rf dist && tsc && ./node_modules/.bin/pm2 start dist/server.js --name ngmp-network-app",
+    "stopTask5": "./node_modules/.bin/pm2 stop ngmp-network-app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "onlyal33",
   "license": "MIT",
   "devDependencies": {
-    "nodemon": "^3.1.0"
+    "@types/node": "^20.12.7",
+    "@types/uuid": "^9.0.8",
+    "nodemon": "^3.1.0",
+    "pm2": "^5.3.1",
+    "typescript": "^5.4.5"
   },
   "dependencies": {
-    "csvtojson": "^2.0.10"
+    "csvtojson": "^2.0.10",
+    "uuid": "^9.0.1"
   }
 }
