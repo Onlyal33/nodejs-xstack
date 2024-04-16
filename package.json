@@ -10,7 +10,7 @@
     "testTask3_1": "nodemon __tests__/task3/part1.test.js",
     "testTask3_2": "nodemon __tests__/task3/part2.test.js",
     "testTask3_3": "nodemon __tests__/task3/part3.test.js",
-    "startTask5": "rm -rf dist && tsc -p task5.tsconfig.json && ./node_modules/.bin/pm2 start dist/server.js --name ngmp-network-app",
+    "startTask5": "rm -rf dist && tsc && ./node_modules/.bin/pm2 start dist/server.js --name ngmp-network-app",
     "stopTask5": "./node_modules/.bin/pm2 stop ngmp-network-app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
